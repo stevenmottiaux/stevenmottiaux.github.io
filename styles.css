@@ -1,0 +1,49 @@
+
+body,html {
+    background: #303F9F;
+	color: #FAFAFA;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
+    min-height: 100vh;    
+}
+
+main > .intro {
+	font-family: "Caveat", cursive;
+	font-size: 50px;
+	font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+main > .tagline {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+main > .gif {
+    margin-top: 20px;
+}
+
+a {
+    color: #FAFAFA;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.icons-social a {
+    text-decoration: none;
+  }
+
+.icons-social i {
+	font-size: 2.5em;
+}
