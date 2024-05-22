@@ -38,6 +38,7 @@ main > .intro {
     border-right: 3px solid; /* Ajoute un curseur clignotant */
     animation: typing 3.5s steps(30, end), blink 0.75s step-end infinite; /* Animation typing et blink */
     display: inline-block; /* Permet d'animer le width sans changer la position */
+    min-height: 100vh,
 }
 
 main > .tagline {
